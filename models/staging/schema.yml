@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: staging
+    database: delta-coast-416420
+    schema: ny_taxi
+
+    tables:
+      - name: yellow_cab_data
